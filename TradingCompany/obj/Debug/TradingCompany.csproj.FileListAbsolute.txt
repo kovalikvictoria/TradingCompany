@@ -1,0 +1,38 @@
+c:\users\vika\source\repos\TradingCompany\TradingCompany\bin\Debug\TradingCompany.pdb
+c:\users\vika\source\repos\TradingCompany\TradingCompany\obj\Debug\TradingCompany.csprojAssemblyReference.cache
+c:\users\vika\source\repos\TradingCompany\TradingCompany\obj\Debug\TradingCompany.pdb
+c:\users\vika\source\repos\TradingCompany\TradingCompany\bin\Debug\TradingCompany.exe
+c:\users\vika\source\repos\TradingCompany\TradingCompany\obj\Debug\TradingCompany.exe
+C:\Users\Vika\source\repos\TradingCompany\TradingCompany\bin\Debug\TradingCompany.exe.config
+C:\Users\Vika\source\repos\TradingCompany\TradingCompany\bin\Debug\DAL.dll
+C:\Users\Vika\source\repos\TradingCompany\TradingCompany\bin\Debug\Entity.dll
+C:\Users\Vika\source\repos\TradingCompany\TradingCompany\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Vika\source\repos\TradingCompany\TradingCompany\bin\Debug\System.Security.AccessControl.dll
+C:\Users\Vika\source\repos\TradingCompany\TradingCompany\bin\Debug\System.Security.Permissions.dll
+C:\Users\Vika\source\repos\TradingCompany\TradingCompany\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Vika\source\repos\TradingCompany\TradingCompany\bin\Debug\DAL.pdb
+C:\Users\Vika\source\repos\TradingCompany\TradingCompany\bin\Debug\Entity.pdb
+C:\Users\Vika\source\repos\TradingCompany\TradingCompany\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Vika\source\repos\TradingCompany\TradingCompany\bin\Debug\System.Security.AccessControl.xml
+C:\Users\Vika\source\repos\TradingCompany\TradingCompany\bin\Debug\System.Security.Permissions.xml
+C:\Users\Vika\source\repos\TradingCompany\TradingCompany\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\Vika\source\repos\TradingCompany\TradingCompany\obj\Debug\TradingCompany.csproj.CopyComplete
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\TradingCompany\bin\Debug\TradingCompany.exe.config
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\TradingCompany\bin\Debug\TradingCompany.exe
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\TradingCompany\bin\Debug\TradingCompany.pdb
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\TradingCompany\bin\Debug\DAL.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\TradingCompany\bin\Debug\Entity.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\TradingCompany\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\TradingCompany\bin\Debug\System.Security.AccessControl.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\TradingCompany\bin\Debug\System.Security.Permissions.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\TradingCompany\bin\Debug\System.Security.Principal.Windows.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\TradingCompany\bin\Debug\DAL.pdb
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\TradingCompany\bin\Debug\Entity.pdb
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\TradingCompany\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\TradingCompany\bin\Debug\System.Security.AccessControl.xml
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\TradingCompany\bin\Debug\System.Security.Permissions.xml
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\TradingCompany\bin\Debug\System.Security.Principal.Windows.xml
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\TradingCompany\obj\Debug\TradingCompany.csprojAssemblyReference.cache
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\TradingCompany\obj\Debug\TradingCompany.csproj.CopyComplete
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\TradingCompany\obj\Debug\TradingCompany.exe
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\TradingCompany\obj\Debug\TradingCompany.pdb

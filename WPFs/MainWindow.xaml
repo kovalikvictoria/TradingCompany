@@ -1,0 +1,39 @@
+﻿<Window x:Class="WPFs.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFs"
+        mc:Ignorable="d"
+        Title="ItemList" Height="450" Width="800">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto" MinHeight="70"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Search" Grid.Row="0" Margin="10,3,263,3"/>
+        <TextBox Grid.Row="0" x:Name="Search" TextChanged="Search_TextChanged" Width="Auto" Grid.ColumnSpan="2" Margin="55,0,10.333,0" Grid.RowSpan="1" />
+
+        <DataGrid x:Name="ItemsData" Grid.Row="1" ItemsSource="{Binding}" SelectionChanged="DataGrid_SelectionChanged" Grid.ColumnSpan="2" Margin="0,0,0.333,69.667" Grid.RowSpan="2">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Width="Auto" IsReadOnly="True" Binding="{Binding Path=Id}"/>
+                <DataGridTextColumn Header="NAME" Width="Auto" IsReadOnly="True" Binding="{Binding Path=Name}"/>
+                <DataGridTextColumn Header="DESCRIPTION" Width="Auto" IsReadOnly="True" Binding="{Binding Path=Description}"/>
+                <DataGridTextColumn Header="CATEGORY" Width="Auto" IsReadOnly="True" Binding="{Binding Path=Category}"/>
+                <DataGridTextColumn Header="PRICE" Width="Auto" IsReadOnly="True" Binding="{Binding Path=Price}"/>
+                <DataGridCheckBoxColumn Header="IN STOCK" Width="Auto" IsReadOnly="True" Binding="{Binding Path=InStock}"/>
+            </DataGrid.Columns>
+
+        </DataGrid>
+
+        <Button x:Name="Create" Grid.Row="2" Content="Create" Click="Create_Click" Margin="0,0.333,362.333,-0.333" Grid.ColumnSpan="2" />
+        <Button x:Name="Cancel" Grid.Row="2" Content="Cancel" Click="Cancel_Click" Margin="122.333,0.333,0.333,-0.333" Grid.Column="1" />
+    </Grid>
+</Window>

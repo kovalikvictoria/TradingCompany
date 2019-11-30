@@ -1,0 +1,28 @@
+c:\users\vika\source\repos\TradingCompany\Entity\bin\Debug\Entity.dll
+c:\users\vika\source\repos\TradingCompany\Entity\bin\Debug\Entity.pdb
+c:\users\vika\source\repos\TradingCompany\Entity\obj\Debug\Entity.dll
+c:\users\vika\source\repos\TradingCompany\Entity\obj\Debug\Entity.pdb
+C:\Users\Vika\source\repos\TradingCompany\Entity\obj\Debug\Entity.csprojAssemblyReference.cache
+C:\Users\Vika\source\repos\TradingCompany\Entity\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Vika\source\repos\TradingCompany\Entity\bin\Debug\System.Security.AccessControl.dll
+C:\Users\Vika\source\repos\TradingCompany\Entity\bin\Debug\System.Security.Permissions.dll
+C:\Users\Vika\source\repos\TradingCompany\Entity\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Vika\source\repos\TradingCompany\Entity\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Vika\source\repos\TradingCompany\Entity\bin\Debug\System.Security.AccessControl.xml
+C:\Users\Vika\source\repos\TradingCompany\Entity\bin\Debug\System.Security.Permissions.xml
+C:\Users\Vika\source\repos\TradingCompany\Entity\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\Vika\source\repos\TradingCompany\Entity\obj\Debug\Entity.csproj.CopyComplete
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Entity\bin\Debug\Entity.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Entity\bin\Debug\Entity.pdb
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Entity\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Entity\bin\Debug\System.Security.AccessControl.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Entity\bin\Debug\System.Security.Permissions.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Entity\bin\Debug\System.Security.Principal.Windows.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Entity\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Entity\bin\Debug\System.Security.AccessControl.xml
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Entity\bin\Debug\System.Security.Permissions.xml
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Entity\bin\Debug\System.Security.Principal.Windows.xml
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Entity\obj\Debug\Entity.csprojAssemblyReference.cache
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Entity\obj\Debug\Entity.csproj.CopyComplete
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Entity\obj\Debug\Entity.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Entity\obj\Debug\Entity.pdb

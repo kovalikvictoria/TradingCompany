@@ -1,0 +1,9 @@
+C:\Users\VIKA\source\repos\TradingCompany\Forms\bin\Debug\Forms.exe.config
+C:\Users\VIKA\source\repos\TradingCompany\Forms\bin\Debug\Forms.exe
+C:\Users\VIKA\source\repos\TradingCompany\Forms\bin\Debug\Forms.pdb
+C:\Users\VIKA\source\repos\TradingCompany\Forms\obj\Debug\Forms.csprojAssemblyReference.cache
+C:\Users\VIKA\source\repos\TradingCompany\Forms\obj\Debug\Forms.Form1.resources
+C:\Users\VIKA\source\repos\TradingCompany\Forms\obj\Debug\Forms.Properties.Resources.resources
+C:\Users\VIKA\source\repos\TradingCompany\Forms\obj\Debug\Forms.csproj.GenerateResource.cache
+C:\Users\VIKA\source\repos\TradingCompany\Forms\obj\Debug\Forms.exe
+C:\Users\VIKA\source\repos\TradingCompany\Forms\obj\Debug\Forms.pdb
