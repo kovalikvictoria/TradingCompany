@@ -11,26 +11,26 @@ namespace BLL.Services.Concrete
 {
     public class AuthenticationService : IAuthenticationService
     {
-        private readonly IUnitOfWork _unitOfWork;
+        //private readonly IUnitOfWork _unitOfWork;
 
-        public AuthenticationService(IUnitOfWork unitOfWork)
-        {
-            _unitOfWork = unitOfWork;
-        }
+        //public AuthenticationService(IUnitOfWork unitOfWork)
+        //{
+        //    _unitOfWork = unitOfWork;
+        //}
 
-        public async Task<bool> CheckCredentials(CredentialsDTO credentials)
-        {
-            return (await _unitOfWork.UserRepository
-                .GetAsync(u => u.Login == credentials.Login))
-                .Any(u => u.PasswordHash == Hash(credentials.Password));
-        }
+        //public async Task<bool> CheckCredentials(CredentialsDTO credentials)
+        //{
+        //    return (await _unitOfWork.UserRepository
+        //        .GetAsync(u => u.Login == credentials.Login))
+        //        .Any(u => u.PasswordHash == Hash(credentials.Password));
+        //}
 
-        public async Task<bool> UserExist(string login)
-        {
-            return (await _unitOfWork.UserRepository
-                .GetAsync(u => u.Login == login))
-                .Any();
-        }
+        //public async Task<bool> UserExist(string login)
+        //{
+        //    return (await _unitOfWork.UserRepository
+        //        .GetAsync(u => u.Login == login))
+        //        .Any();
+        //}
 
         public string Hash(string str)
         {
