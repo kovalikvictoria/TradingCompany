@@ -1,4 +1,5 @@
 ﻿using BLL.Services;
+using BLL;
 using BLL.Views;
 using Entity.Concrete;
 using System;
@@ -32,24 +33,42 @@ namespace Forms
 
         private void button_create_Click(object sender, EventArgs e)
         {
-            //User user = new User();
-            //if (textbox_pwd.Text == textbox_pwd2.Text)
-            //{
-            //    user.Hashe = textbox_pwd2.Text;
-            //}
-            //else
-            //{
-            //    MessageBox.Show(
-            //        "Passwords are not match!",
-            //        "Error",
-            //        MessageBoxButtons.OK,
-            //        MessageBoxIcon.Error);
-            //    return;
-            //}
-            //user.Name = textbox_name.Text;
-            //user.Login = textbox_login.Text;
-            //user.Age = Convert.ToInt32(textbox_age.Text);
-            //_userService.CreateUser(user);
+            User user = new User();
+            if (textbox_pwd.Text == textbox_pwd2.Text)
+            {
+                user.HashPassword = HashPassword.Hash(textbox_pwd2.Text);
+            }
+            else
+            {
+                MessageBox.Show(
+                    "Passwords are not match!",
+                    "Error",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
+                return;
+            }
+            user.Name = textbox_name.Text;
+            user.Login = textbox_login.Text;
+            user.Age = Convert.ToInt32(textbox_age.Text);
+            try
+            {
+                _userService.CreateUser(user);
+                MessageBox.Show(
+                    "New user was created!",
+                    "Information",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
+                return;
+            }
+            catch
+            {
+                MessageBox.Show(
+                    "You have troubles!",
+                    "Error",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
+                return;
+            }
         }
 
         //---

@@ -36,3 +36,9 @@ D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\TradingCompany\
 D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\TradingCompany\obj\Debug\TradingCompany.csproj.CopyComplete
 D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\TradingCompany\obj\Debug\TradingCompany.exe
 D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\TradingCompany\obj\Debug\TradingCompany.pdb
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\TradingCompany\bin\Debug\Unity.Abstractions.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\TradingCompany\bin\Debug\Unity.Container.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\TradingCompany\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\TradingCompany\bin\Debug\Unity.Abstractions.pdb
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\TradingCompany\bin\Debug\Unity.Container.pdb
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\TradingCompany\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml

@@ -31,3 +31,9 @@ D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\bin\Debug
 D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\bin\Debug\DAL.pdb
 D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\bin\Debug\Entity.pdb
 D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\obj\Debug\Forms.csproj.CopyComplete
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\bin\Debug\Unity.Abstractions.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\bin\Debug\Unity.Container.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\bin\Debug\Unity.Abstractions.pdb
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\bin\Debug\Unity.Container.pdb

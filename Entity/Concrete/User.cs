@@ -24,8 +24,8 @@ namespace Entity.Concrete
         public string HashPassword { get; set; }
         public int Age { get; set; }
 
-        public User(string name, string login,
-            string password, int age)
+        public User(string name = "", string login = "",
+            string password = "", int age = 0)
         {
             Name = name;
             Login = login;

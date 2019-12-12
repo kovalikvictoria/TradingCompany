@@ -35,7 +35,6 @@ namespace DAL.Concrete
         // class ADalCrud
         protected override IDictionary<string, string> GetValues(User user)
         {
-            // TODO Use Enum
             IDictionary<string, string> result = new Dictionary<string, string>();
             result.Add(EUser.ID.ToString().ToLower(), user.Id.ToString());
             result.Add(EUser.NAME.ToString().ToLower(), user.Name);
@@ -63,16 +62,6 @@ namespace DAL.Concrete
                 PrintUser(user);
             }
         }
-
-        //public bool Login(string username, string password)
-        //{
-        //    string hashedPassword = hash(password);
-
-        //    using (User user = new User())
-        //    {
-        //        return user.Any(user => user.Login && )
-        //    }
-        //}
 
     }
 }

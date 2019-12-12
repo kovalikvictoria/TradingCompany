@@ -9,6 +9,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TradingCompany.BLL;
+using Unity.Resolution;
 
 namespace Forms
 {
@@ -33,18 +35,8 @@ namespace Forms
 
         private void button_create_account_Click(object sender, EventArgs e)
         {
-            var form = new RegistrationForm();
+            var form = DependencyInjectorBLL.Resolve<RegistrationForm>();
             form.Show();
-        }
-
-        private void LoginForm_Load(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void button_sign_in_Click(object sender, EventArgs e)
@@ -59,7 +51,8 @@ namespace Forms
             {
                 if (_authenticationService.CheckCredentials(credentials))
                 {
-                    MenuForm menu = new MenuForm();
+                    MenuForm menu = DependencyInjectorBLL.Resolve<MenuForm>(
+                        new ParameterOverride("user", _userService.GetByLogin(credentials.Login)));
                     menu.Show();
                     this.Hide();
                 }
@@ -81,5 +74,27 @@ namespace Forms
                    MessageBoxIcon.Error);
             }
         }
+
+        private void button_exit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+       
+
+
+
+
+        ///---
+        private void LoginForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+       
     }
 }

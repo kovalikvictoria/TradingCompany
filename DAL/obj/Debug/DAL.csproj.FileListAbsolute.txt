@@ -30,3 +30,9 @@ D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\DAL\obj\Debug\D
 D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\DAL\obj\Debug\DAL.dll
 D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\DAL\obj\Debug\DAL.pdb
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\DAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\DAL\bin\Debug\Unity.Abstractions.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\DAL\bin\Debug\Unity.Container.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\DAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\DAL\bin\Debug\Unity.Abstractions.pdb
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\DAL\bin\Debug\Unity.Container.pdb

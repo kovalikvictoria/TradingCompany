@@ -1,4 +1,7 @@
 ﻿using AutoMapper;
+using BLL;
+using BLL.Services;
+using TradingCompany.DAL;
 using Unity;
 using Unity.Resolution;
 
@@ -20,13 +23,10 @@ namespace TradingCompany.BLL
         public static void RegisterBLLTypes(this IUnityContainer container)
         {
             container
-                .RegisterType<IAuthenticationService, AuthenticationService>()
-                .RegisterType<IUserService, UserService>()
-                .RegisterType<IRoleService, RoleService>()
-                .RegisterType<IProductService, ProductService>()
-                .RegisterType<IOrderService, OrderService>()
-                .RegisterType<ISupplierService, SupplierService>()
-                .RegisterType<ISuppToProdService, SuppToProdService>()
+                .RegisterType<UserService>()
+                .RegisterType<CategoryService>()
+                .RegisterType<ItemService>()
+                .RegisterType<ReviewService>()
                 .RegisterInstance<IMapper>(ObjectsMapper.CreateMapper());
             //, InstanceLifetime.Singleton
         }
