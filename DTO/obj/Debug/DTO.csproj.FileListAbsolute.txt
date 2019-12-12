@@ -1,0 +1,8 @@
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\DTO\bin\Debug\DTO.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\DTO\bin\Debug\DTO.pdb
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\DTO\bin\Debug\Entity.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\DTO\bin\Debug\Entity.pdb
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\DTO\obj\Debug\DTO.csproj.CopyComplete
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\DTO\obj\Debug\DTO.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\DTO\obj\Debug\DTO.pdb

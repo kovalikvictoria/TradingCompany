@@ -30,6 +30,8 @@ namespace DAL.Abstract
         private void InitReadQueries()
         {
             sqlQueries.Add(ESqlQueries.GET_BY_ID, "SELECT * FROM " + GetTableName() + " WHERE id = {0};"); // ...+ nameof(TEntity) +... // if table name correspond class name
+            sqlQueries.Add(ESqlQueries.GET_BY_LOGIN, "SELECT * FROM " + GetTableName() + " WHERE login = '{0}';");
+            sqlQueries.Add(ESqlQueries.GET_BY_NAME, "SELECT * FROM " + GetTableName() + " WHERE name = '{0}';");
             sqlQueries.Add(ESqlQueries.GET_BY_FIELD, "SELECT * FROM " + GetTableName() + " WHERE {0} = '{1}';");
             sqlQueries.Add(ESqlQueries.GET_ALL, "SELECT * FROM " + GetTableName() + ";");
         }
@@ -94,6 +96,20 @@ namespace DAL.Abstract
             return GetQueryResult(string.Format(
                 sqlQueries[ESqlQueries.GET_BY_ID], id.ToString()),
                 ESqlQueries.GET_BY_ID).First();
+        }
+
+        public TEntity GetByLogin(string login)
+        {
+            return GetQueryResult(string.Format(
+                sqlQueries[ESqlQueries.GET_BY_LOGIN], login),
+                ESqlQueries.GET_BY_LOGIN).First();
+        }
+
+        public TEntity GetByName(string name)
+        {
+            return GetQueryResult(string.Format(
+                sqlQueries[ESqlQueries.GET_BY_NAME], name),
+                ESqlQueries.GET_BY_NAME).First();
         }
 
         public IList<TEntity> GetByFieldName(string fieldName, string text)

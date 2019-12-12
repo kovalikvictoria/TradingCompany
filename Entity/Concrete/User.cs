@@ -21,14 +21,15 @@ namespace Entity.Concrete
         public int Id { get; set; }
         public string Name { get; set; }
         public string Login { get; set; }
-        public string Password { get; set; }
+        public string HashPassword { get; set; }
         public int Age { get; set; }
 
-        public User(string name, string login, string password, int age)
+        public User(string name, string login,
+            string password, int age)
         {
             Name = name;
             Login = login;
-            Password = password;
+            HashPassword = password;
             Age = age;
         }
     }

@@ -7,3 +7,27 @@ C:\Users\VIKA\source\repos\TradingCompany\Forms\obj\Debug\Forms.Properties.Resou
 C:\Users\VIKA\source\repos\TradingCompany\Forms\obj\Debug\Forms.csproj.GenerateResource.cache
 C:\Users\VIKA\source\repos\TradingCompany\Forms\obj\Debug\Forms.exe
 C:\Users\VIKA\source\repos\TradingCompany\Forms\obj\Debug\Forms.pdb
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\obj\Debug\Forms.csprojAssemblyReference.cache
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\obj\Debug\Forms.LoginForm.resources
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\obj\Debug\Forms.Properties.Resources.resources
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\obj\Debug\Forms.RegistrationForm.resources
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\obj\Debug\Forms.csproj.GenerateResource.cache
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\obj\Debug\Forms.exe
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\obj\Debug\Forms.pdb
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\bin\Debug\Forms.exe.config
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\bin\Debug\Forms.exe
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\bin\Debug\Forms.pdb
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\bin\Debug\BLL.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\bin\Debug\DTO.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\bin\Debug\Newtonsoft.Json.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\bin\Debug\AutoMapper.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\bin\Debug\DAL.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\bin\Debug\Entity.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\bin\Debug\BLL.pdb
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\bin\Debug\DTO.pdb
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\bin\Debug\Newtonsoft.Json.xml
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\bin\Debug\AutoMapper.pdb
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\bin\Debug\AutoMapper.xml
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\bin\Debug\DAL.pdb
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\bin\Debug\Entity.pdb
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\Forms\obj\Debug\Forms.csproj.CopyComplete

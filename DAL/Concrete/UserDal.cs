@@ -40,9 +40,9 @@ namespace DAL.Concrete
             result.Add(EUser.ID.ToString().ToLower(), user.Id.ToString());
             result.Add(EUser.NAME.ToString().ToLower(), user.Name);
             result.Add(EUser.LOGIN.ToString().ToLower(), user.Login);
-            result.Add(EUser.PASSWORD.ToString().ToLower(), user.Password);
+            result.Add(EUser.PASSWORD.ToString().ToLower(), user.HashPassword);
             result.Add(EUser.AGE.ToString().ToLower(), user.Age.ToString());
-            
+
             return result;
         }
 
@@ -52,7 +52,7 @@ namespace DAL.Concrete
                    "\nID: " + user.Id.ToString() +
                    "\nNAME: " + user.Name +
                    "\nLOGIN: " + user.Login +
-                   "\nPASSWORD: " + user.Password +
+                   "\nPASSWORD: " + user.HashPassword +
                    "\nAGE: " + user.Age.ToString() + "\n");
         }
 
@@ -68,24 +68,11 @@ namespace DAL.Concrete
         //{
         //    string hashedPassword = hash(password);
 
-        //    using(User user = new User())
+        //    using (User user = new User())
         //    {
         //        return user.Any(user => user.Login && )
         //    }
         //}
 
-        private string hash(string password)
-        {
-            var alg = SHA256.Create();
-            byte[] bytes = alg.ComputeHash(Encoding.UTF8.GetBytes(password));
-            StringBuilder sb = new StringBuilder();
-
-            foreach (var b in bytes)
-            {
-                sb.Append(b.ToString("X2"));
-            }
-
-            return sb.ToString();
-        }
     }
 }

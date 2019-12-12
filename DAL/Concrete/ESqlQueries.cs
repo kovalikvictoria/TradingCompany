@@ -11,6 +11,8 @@ namespace DAL.Concrete
     {
         INSERT,
         GET_BY_ID,
+        GET_BY_LOGIN,
+        GET_BY_NAME,
         GET_BY_FIELD,
         GET_ALL,
         UPDATE_BY_ID,

@@ -26,7 +26,8 @@ namespace Entity.Concrete
         public decimal Price { get; set; }
         public string InStock { get; set; }
 
-        public Item(string name, string desc, int categId, decimal price, string inStock)
+        public Item(string name, string desc, int categId,
+            decimal price, string inStock)
         {
             Name = name;
             Description = desc;

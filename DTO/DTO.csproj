@@ -48,5 +48,11 @@
     <Compile Include="ReviewDTO.cs" />
     <Compile Include="UserDTO.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{4D37CCCE-1911-495A-874A-7FF17466E6F5}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
