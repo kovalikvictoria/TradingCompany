@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using TradingCompany.BLL;
 
 namespace WPFs
 {
@@ -13,5 +14,10 @@ namespace WPFs
     /// </summary>
     public partial class App : Application
     {
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            var mainWindow = DependencyInjectorBLL.Resolve<MainWindow>();
+            mainWindow.Show();
+        }
     }
 }

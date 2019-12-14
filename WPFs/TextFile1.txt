@@ -1,4 +1,0 @@
-﻿Mapper, Container розібратися
-ObservableCollection
-PropertyChangedEventHandler
-e.Accepted = true

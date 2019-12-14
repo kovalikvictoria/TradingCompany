@@ -58,7 +58,7 @@ namespace Forms
                     "Information",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Information);
-                return;
+                this.Close();
             }
             catch
             {

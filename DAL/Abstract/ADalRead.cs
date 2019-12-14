@@ -16,7 +16,7 @@ namespace DAL.Abstract
     public abstract class ADalRead<TEntity> : IDalRead<TEntity> where TEntity : IEntity //, new()
     {
         protected const string QUERY_NOT_FOUND = "Query not found {0}";
-        protected const string EMPTY_DATA_READER = "Empty DataReader by Query {0}";
+        public const string EMPTY_DATA_READER = "Empty DataReader by Query {0}";
         protected const string DATABASE_READING_ERROR = "Database Reading Error";
         //
         protected IDictionary<ESqlQueries, string> sqlQueries;

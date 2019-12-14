@@ -1,5 +1,7 @@
 ﻿using BLL.Services;
+using DAL.Abstract;
 using DTO;
+using Entity.Concrete;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -47,32 +49,44 @@ namespace Forms
                 Password = textbox_password.Text
             };
 
-            if (_authenticationService.UserExist(textbox_login.Text))
+            if (credentials.Login != "" && credentials.Password != "")
             {
-                if (_authenticationService.CheckCredentials(credentials))
+                if (_authenticationService.UserExist(textbox_login.Text))
                 {
-                    MenuForm menu = DependencyInjectorBLL.Resolve<MenuForm>(
-                        new ParameterOverride("user", _userService.GetByLogin(credentials.Login)));
-                    menu.Show();
-                    this.Hide();
+                    if (_authenticationService.CheckCredentials(credentials))
+                    {
+                        MenuForm menu = DependencyInjectorBLL.Resolve<MenuForm>(
+                            new ParameterOverride("user", _userService.GetByLogin(credentials.Login)));
+                        menu.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show(
+                           "Wrong password!",
+                           "Error",
+                           MessageBoxButtons.OK,
+                           MessageBoxIcon.Error);
+                    }
                 }
                 else
                 {
                     MessageBox.Show(
-                       "Wrong password!",
+                       "There is no such user!",
                        "Error",
                        MessageBoxButtons.OK,
                        MessageBoxIcon.Error);
                 }
             }
             else
-            {
+            { 
                 MessageBox.Show(
-                   "There is no such user!",
-                   "Error",
-                   MessageBoxButtons.OK,
-                   MessageBoxIcon.Error);
-            }
+                    "Empty Data!",
+                    "Error",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
+                return;
+            }            
         }
 
         private void button_exit_Click(object sender, EventArgs e)
