@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using BLL.Views;
 using DAL.Concrete;
 using DTO;
 using Entity.Concrete;
@@ -19,6 +20,27 @@ namespace BLL.Services
         {
             _itemDal = itemDal;
             _mapper = mapper;
+        }
+
+        public IEnumerable<ItemViewModel> GetViewModels()
+        {
+            IEnumerable<ItemDTO> itemDTOs = this.GetAll();
+            var itemsView = itemDTOs.ToList().ConvertAll(x => _mapper.Map<ItemDTO, ItemViewModel>(x));
+            return itemsView;
+        }
+
+        public IEnumerable<ItemDTO> GetAll()
+        {
+            List<ItemDTO> itemDTOs = new List<ItemDTO>();
+
+            CategoryDal categoryDal = new CategoryDal();
+            foreach (var item in _itemDal.GetAll())
+            {
+                ItemDTO itemDTO = _mapper.Map<Item, ItemDTO>(item);
+                itemDTO.category = categoryDal.GetById(item.CategoryId);
+                itemDTOs.Add(itemDTO);
+            }
+            return itemDTOs;
         }
 
         public ItemDTO GetById(int id)
@@ -42,5 +64,65 @@ namespace BLL.Services
             return itemsDTO;
         }
 
+        public bool Create(ItemViewModel model)
+        {
+            try
+            {
+                CategoryDal categoryDal = new CategoryDal();
+
+                Item item = _mapper.Map<ItemViewModel, Item>(model);
+                item.CategoryId = categoryDal.GetByFieldName("name", model.Category).First().Id;
+                _itemDal.Insert(item);
+            }
+            catch
+            {
+                return false;
+            }
+            return true;
+        }
+
+        public bool Create(ItemDTO model)
+        {
+            try
+            {
+                Item item = _mapper.Map<ItemDTO, Item>(model);
+                _itemDal.Insert(item);
+            }
+            catch
+            {
+                return false;
+            }
+            return true;
+        }
+
+        public bool Update(ItemViewModel model)
+        {
+            try
+            {
+                CategoryDal categoryDal = new CategoryDal();
+
+                Item item = _mapper.Map<ItemViewModel, Item>(model);
+                item.CategoryId = categoryDal.GetByFieldName("name", model.Category).First().Id;
+                _itemDal.UpdateByEntity(item);
+            }
+            catch
+            {
+                return false;
+            }
+            return true;
+        }
+
+        public bool Delete(int id)
+        {
+            try
+            {
+                _itemDal.Delete(_itemDal.GetById(id));
+            }
+            catch
+            {
+                return false;
+            }
+            return true;
+        }
     }
 }

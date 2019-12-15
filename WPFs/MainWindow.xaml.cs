@@ -57,7 +57,7 @@ namespace WPFs
                         ItemsMenu menu = DependencyInjectorBLL.Resolve<ItemsMenu>(
                             new ParameterOverride("user", _userService.GetByLogin(credentials.Login)));
                         menu.Show();
-                        this.Hide();
+                        this.Close();
                     }
                     else
                     {

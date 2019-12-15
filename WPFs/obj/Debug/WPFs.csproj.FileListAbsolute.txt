@@ -32,3 +32,12 @@ D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\WPFs\obj\Debug\
 D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\WPFs\obj\Debug\WPFs.csproj.CopyComplete
 D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\WPFs\obj\Debug\WPFs.exe
 D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\WPFs\obj\Debug\WPFs.pdb
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\WPFs\bin\Debug\Elasticsearch.Net.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\WPFs\bin\Debug\System.Buffers.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\WPFs\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\WPFs\bin\Debug\Elasticsearch.Net.pdb
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\WPFs\bin\Debug\Elasticsearch.Net.xml
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\WPFs\bin\Debug\System.Buffers.xml
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\WPFs\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\WPFs\obj\Debug\AddItemWindow.g.cs
+D:\Education\Programs\Visual Studio 2019\Projects\TradingCompany\WPFs\obj\Debug\AddItemWindow.baml
